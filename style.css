@@ -1,0 +1,58 @@
+:root{
+    --color_blanco: #fff;
+    --color_negro: #000;
+    --color_gris:  #ccc;
+    --navbar_height: 80px;
+    --font-size1: 1rem;
+    --font-size2:  1.5rem;
+    --font-size3: 2rem;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    text-decoration: none;
+}
+
+.header{
+    height: var(--navbar_height);
+    background-color: red;
+}
+
+.navbar{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    align-items: center;
+    padding: 0 4rem;
+}
+
+.menu_hamburguesa,.label_hamburguesa{
+    display: none;
+}
+.text_navbar{
+    font-size: var(--font-size2);
+}
+.ul_links{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.li_links{
+    width: 100%;
+    padding: 1.5rem 1rem;
+}
+
+.link{
+    font-size: var(--font-size2);
+    color: var(--color_negro);
+}
+
+.li_links:hover{
+    background-color: var(--color_gris);
+    text-decoration: underline;
+    text-underline-offset: .5rem;
+}
