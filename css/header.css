@@ -1,0 +1,35 @@
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--color_azul);
+    color: var(--color_blanco);
+    padding-inline: 15%;
+}
+.logo {
+    font-size: 1.5rem;
+}
+nav {
+    display: flex;
+    gap: 1rem;
+}
+nav a {
+    padding: 1rem;
+    color:var(--color_blanco);
+    border-radius: 8px;
+    transition: 0.4s ease;
+}
+nav a:hover{
+    background-color: var(--color_azul_claro);
+    
+}
+.hamburger {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+#menu-toggle {
+    display: none;
+}

@@ -6,8 +6,9 @@
     
     <script src="https://kit.fontawesome.com/aa335a1a68.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>Catriel Capeanes Portfolio</title>
 </head>
 <body>
@@ -18,14 +19,14 @@
         <nav id="navbar">
             <a href="#about-me">Sobre mí</a>
             <a href="#knowledge">Conocimientos</a>
-            <a href="#proyects">Proyectos</a>
+            <a href="#project">Proyectos</a>
             <a href="#contact">Contacto</a>
         </nav>
     </header>
     <main>
         <div class="content" id="about-me">
             <div class="main-photo">
-                <img src="profile.jpg" alt="Foto de Catriel Capeanes">
+                <img src="images/profile.jpg" alt="Foto de Catriel Capeanes">
             </div>
             <div class="main-text">
                 <small>¡Hola!, Soy</small>
@@ -33,6 +34,7 @@
                 <p class="main-subtitle">Estudiante de Ing. en Sistemas en UTN BA.</p>
                 <p class="main-subtitle">Full Stack Developer (en proceso).</p>
                 <p class="main-subtitle">Phyton Developer (en proceso).</p>
+                <a href="files/cv_ejemplo.pdf" class="btn btn-outline-success" target="_blank" download>Descargar CV</a>
             </div>
         </div>
     </main>
@@ -82,39 +84,46 @@
         <h2>Proyectos</h2>
         <div class="project-grid">
             <div class="card">
-                <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/capsule_616x353.jpg?t=1729703045" alt="">
-                <strong>Proyecto Ejemplo 1</strong>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <div class="client">
-                    <img src="" alt="">
-                </div>
+                <a href=""><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/capsule_616x353.jpg?t=1729703045" alt="Imagen Counter Strike 2"></a>
+                <strong class="title">Proyecto Ejemplo 1</strong>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
             <div class="card">
-                <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/capsule_616x353.jpg?t=1729703045" alt="">
-                <strong>Proyecto Ejemplo 2</strong>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <div class="client">
-                    <img src="" alt="">
-                </div>
+                <a href=""><img src="https://static.wikia.nocookie.net/applezone/images/a/a4/League-of-Legends-wide-900x16002.jpg/revision/latest?cb=20130903175940&path-prefix=es" alt="Imagen LoL"></a>
+                <strong class="title">Proyecto Ejemplo 2</strong>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
             <div class="card">
-                <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/capsule_616x353.jpg?t=1729703045" alt="">
-                <strong>Proyecto Ejemplo 3</strong>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <div class="client">
-                    <img src="" alt="">
+                <a href=""><img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2195250/f11315d7491f706b09b059d12424f711e9778b82/capsule_616x353.jpg?t=1729198679" alt="Imagen FC24"></a>
+                <strong class="title">Proyecto Ejemplo 3</strong>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
-            </div>
             <div class="card">
-                <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/capsule_616x353.jpg?t=1729703045" alt="">
-                <strong>Proyecto Ejemplo 4</strong>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <div class="client">
-                    <img src="" alt="">
-                </div>
+                <a href=""><img src="https://assetsio.gnwcdn.com/eurogamer-zjp1vx.jpg?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp" alt="Imagen GTA 5"></a>
+                <strong class="title">Proyecto Ejemplo 4</strong>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
         </div>
-
     </section>
+    <section id="contact">
+        <div class="contact-box">
+            <h2>Contactame:</h2>
+            <a href="mailto:catrielcapeanes@gmail.com" target="_blank">
+                <i class="fa-regular fa-envelope fa-3x"></i>
+                <p>catrielcapeanes@gmail.com</p>
+            </a>
+            <a href="https://www.linkedin.com/in/catriel-capeanes/" target="_blank">
+                <i class="fa-brands fa-linkedin-in fa-3x"></i>
+                <p>Catriel Capeanes</p>
+            </a>
+            <a href="https://www.instagram.com/catrielcapeanes/" target="_blank">
+                <i class="fa-brands fa-instagram fa-3x"></i>
+                <p>@catrielcapeanes</p>
+            </a>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 - Catriel Capeanes</p>
+    </footer>
 </body>
 </html>

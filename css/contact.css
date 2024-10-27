@@ -1,0 +1,19 @@
+/* CONTACTO */
+
+#contact {
+    background-color: var(--color_gris);
+    padding: 2rem 15% 2rem 15%;
+}
+
+.contact-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-box a{
+    display: flex;
+    flex-direction: column;
+    color: var(--color_negro);
+    align-items: center;
+    text-align: center;
+}
