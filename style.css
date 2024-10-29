@@ -89,6 +89,9 @@ footer{
     }
 
     /* CONTACTO */
+
+    #contact { padding: 1.5rem 15% 2rem 15%; }
+
     .contact-box {
         flex-direction: column;
         gap: 2rem;
